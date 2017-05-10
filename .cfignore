@@ -1,0 +1,7 @@
+node_modules/
+.idea/
+splitdocs/
+coverage
+npm-debug.log
+readme_images
+test
