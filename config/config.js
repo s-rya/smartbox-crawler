@@ -1,6 +1,7 @@
 /**
  * Created by iSmile on 5/10/2017.
  */
+'use strict';
 
 //Config values for Watson Discovery Service running in Bluemix
 const watsonDiscovery = {
@@ -12,9 +13,22 @@ const watsonDiscovery = {
     version: 'v1',
     version_date: '2016-12-01',
     environment_id: 'ac74cff0-5b41-4f53-8bdb-0a9c6e188093',
-    collection_id: 'a42791bc-3dc8-4419-9e60-49461aafa9a5'
+    //collection_id: 'a42791bc-3dc8-4419-9e60-49461aafa9a5'
+    collection_id: 'aace4214-d9f3-440f-9ef6-81f7228ea848'
+};
+
+//Config values for Watson Conversation Service running in Bluemix
+const watsonCoversation = {
+    url: 'https://gateway.watsonplatform.net/conversation/api',
+    version_date: '2017-05-26',
+    version: 'v1',
+    workspaceId: '8dd2e891-2b13-41b7-9737-009a9d9e382b',
+    workspaceUserName: 'c715a3d3-4510-4fca-9a1e-73b29e018291',
+    workspacePassword: 'gseiGfBJ5CNI',
+    authToken: 'YzcxNWEzZDMtNDUxMC00ZmNhLTlhMWUtNzNiMjllMDE4MjkxOmdzZWlHZkJKNUNOSQ=='
 };
 
 module.exports = {
-    watsonDiscovery: watsonDiscovery
+    watsonDiscovery: watsonDiscovery,
+    watsonCoversation: watsonCoversation
 };
