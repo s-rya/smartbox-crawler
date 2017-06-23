@@ -28,7 +28,10 @@ const watsonCoversation = {
     authToken: 'YzcxNWEzZDMtNDUxMC00ZmNhLTlhMWUtNzNiMjllMDE4MjkxOmdzZWlHZkJKNUNOSQ=='
 };
 
+const AID = ["terminology and acronyms","overview","business overview","application overview","application platform","development environment","testing environment:","pre- production environment:","production environment:","hw/sw environment","software","inventory statistics","urls","configuration management","<app name> architecture","application structure","functional flow","data flows","application modules","shared modules","interfaces","inbound interfaces","outbound interfaces","application monitoring tools","application dependencies","databases and files","internal data flow","databases","internal files","external system interfaces","user interfaces","db object description","application monitoring","batch / jobs / schedulers","application monitoring tools","application history","typical problems","release history","maintenance history","reference documents","appendix a","appendix b","glossary","about","	high level overview","functional overview","functional high level","about functional","system overview","it application overview","app overview","system platform","technilogy platform","app platform","dev env","dev environment","build environment","test env","qa env","quality environment","pre-prod environment","preprod environment","preprod","preprod env","prod env","prod","prod environment","harware/software env","sw","soft-ware","app modules","application functions","application function","system modules","system functions","shared functions","inflow interfaces","incoming data","inbound","dependencies","system dependencies"];
+
 module.exports = {
     watsonDiscovery: watsonDiscovery,
-    watsonCoversation: watsonCoversation
+    watsonCoversation: watsonCoversation,
+    AID: AID
 };
